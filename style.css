@@ -1,0 +1,80 @@
+body {
+    font-family: arial;
+    text-align: right;
+
+    color: #333;
+   
+  }
+
+
+  form {
+    position: relative;
+    width: 70%;
+    margin: 20px auto;
+    text-align: left;
+    
+
+  }
+  input {
+    
+    padding: 8px 16px;
+    font-size: 1em;
+    margin: 20px ;
+    width:50%;
+    display: block;
+    background-color:#ccc;
+    border: 3px solid #ccc;
+    outline: none !important;
+  }
+  input[name=source]{
+    background-color: white;
+    outline: none !important;
+  }
+  
+  input.valid {
+    border-color: green;
+  }
+  
+  input.invalid {
+    border-color: crimson;
+  }
+  
+  input.invalid + p {
+    font-weight: bold;
+    color: crimson;
+  }
+  
+  input.valid + p {
+    display: none;
+  }
+  
+  .input-field {
+    display:flex;
+    align-content: center;
+    width: 80%;
+     }
+  
+  
+  p{
+    padding: 8px 8px;
+    font-size: 1em;
+    margin: 20px ;
+    width: 240px;
+    text-align:right;
+    font-weight: bold;
+  }
+  
+  button{
+   background: #ADD8E6; 
+   outline: none ;
+   text-align: center;
+   width: 200px;
+   height: 40px;
+   font-size: 25px;
+   margin: 22px 10px;
+   margin-left: 50px;
+   margin-right: 100px;
+  }
+  .Buttons{
+   align-content:space-evenly;
+  }

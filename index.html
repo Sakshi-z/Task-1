@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+   <fieldset>
+    <form>   
+      <div class="input-field">
+        <p>Select your source: | </p>
+        <input type="text" name="source" placeholder="Google Cloud Storage" />
+      </div>
+    
+      <div class="input-field">
+        <p>Provide a name for pipeline : | </p>
+        <input type="text" name="pipeline" placeholder="e.g., cust_shop_energy_gkateway001" />
+      </div>
+    
+      <div class="input-field">
+        <p>GCS project name: | </p>
+        <input type="text" name="project" placeholder="project-id" />
+      </div>
+    
+      <div class="input-field">
+        <p>GCS bucket name: | </p>
+        <input type="url"  placeholder="gs://your-bucket" />
+      </div>
+    
+      <div class="input-field">
+        <p>Input Cloud Storage File(s): | </p>
+        <input type="text" name="file" placeholder="GCS loaction of your files" />
+      </div>
+      <div class="input-field">
+         <p>GCS credentials: | </p>
+         <input type="text" name="credentials" placeholder="" />
+       </div>
+     
+       <div class="input-field">
+         <p>Run Every: | </p>
+         <input type="text" name="run" placeholder="minutes" />
+       </div>
+       
+       <div class="Buttons">
+         <button type="submit"> Create</button>
+         <button type="cancel"> Cancel</button>
+       </div>
+   </fieldset>
+     </form>
+     <script src="index.js"></script>
+   </body>
+   </html>
+     
